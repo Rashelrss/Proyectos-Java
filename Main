@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        Motor motor1 = new Motor(101, 6000);
+        Motor motor2 = new Motor(102, 5500);
+        Automovil auto1 = new Automovil("ABC-123", 4, "Toyota", "Corolla");
+        Automovil auto2 = new Automovil("XYZ-789", 2, "Ferrari", "F8");
+        auto1.setMotor(motor1);
+        auto2.setMotor(motor2);
+        System.out.println(auto1);
+        System.out.println(auto2);
+    }
+}

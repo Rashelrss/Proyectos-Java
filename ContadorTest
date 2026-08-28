@@ -1,0 +1,9 @@
+public class ContadorTest {
+    public static void main(String[] args) {
+        Contador c1 = new Contador(3);
+        Contador c2 = new Contador(10);
+        Contador c3 = new Contador(); 
+        System.out.println("Contadores creados: " + Contador.nContadores);
+        System.out.println("Valor del último contador creado: " + Contador.ultimoContador);
+    }
+}
